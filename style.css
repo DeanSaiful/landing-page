@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+
+
+#navbar{
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.border-b{
+    border-color: #DF922F;
+    border-bottom-width: 1.5px;
+}
+
+.vertical-line {
+    border-left: 1.2px solid black;
+    height: 13px;
+    margin: 4px 0; 
+}
+
+.text-1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #525252;
+}
+
+.text-2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #6E6E6E;
+}
+
+.text-3{
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #EC9E58;
+}
+
+.text-4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #525252;
+    width: 300px;
+    font-size: 14px;
+
+}
+
+.btn{
+    background-color: #EC9E58;
+    margin: 19px 0 0 0;
+    padding: 6px 10px;
+    letter-spacing: 3.5px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+button {
+    margin: 19px 0 0 0;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #EC9E58, #f7c191);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 10px;
+    letter-spacing: 3.5px;
+
+}
+   
+button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+   
+@keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+}
+
+.logo-page{
+    width: 600px;
+}
+
+
